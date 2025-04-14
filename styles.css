@@ -1,61 +1,80 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #f4f6f8;
-    padding: 30px;
-    color: #333;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
 }
 
-.toolbar {
+#contactList {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
-.toolbar i {
-    font-size: 30px;
-    color: #007bff;
-    transition: transform 0.2s ease, color 0.2s ease;
+.contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
-.toolbar i:hover {
-    color: #0056b3;
-    transform: scale(1.2);
+.contact-card:hover {
+    background-color: #f9f9f9;
 }
 
-.table-container {
+.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.contact-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-#contactTable {
-    width: auto;
-    table-layout: auto;
-    background-color: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    white-space: nowrap;
+.contact-info h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
 }
 
-#contactTable th,
-#contactTable td {
-    padding: 12px 20px;
-    vertical-align: middle;
-    text-align: left;
+.contact-info p {
+    margin: 2px 0 0;
+    font-size: 14px;
+    color: #666;
 }
 
-.edit-btn {
-    color: #007bff;
+.contact-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.contact-actions i {
+    font-size: 18px;
     cursor: pointer;
-    transition: color 0.2s ease;
+    color: #666;
 }
 
-.edit-btn:hover {
-    color: #0056b3;
-}
-
-.modal-content {
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+.contact-actions i:hover {
+    color: #000;
 }

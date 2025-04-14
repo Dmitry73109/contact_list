@@ -9,23 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-    <div class="container">
-        <table class="table table-bordered table-hover align-middle text-center" id="contactTable">
-            <thead class="table-light">
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                    <th>Edit</th>
-                    <th style="width: 50px;">
-                        <i id="addContactBtn" class="ri-add-line" style="cursor: pointer;"></i>
-                    </th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+    <div class="container py-4">
+        <div class="toolbar mb-3 text-end">
+            <i id="addContactBtn" class="ri-add-line"></i>
+        </div>
+        <div id="contactList" class="contact-list"></div>
     </div>
 
     <div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
@@ -59,7 +50,9 @@
             </div>
         </div>
     </div>
-
+    <button id="resetContactsBtn" class="btn btn-outline-secondary" title="Сбросить контакты">
+        <i class="ri-refresh-line"></i> Restore from JSON
+      </button>
     <script src="script.js"></script>
 </body>
 </html>
