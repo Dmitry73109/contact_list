@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Bob",
+        "email": "bobsmith42@gmail.com",
+        "phone": "+79123456789"
+    },
+    {
+        "name": "Clara",
+        "email": "clara.jones@mail.ru",
+        "phone": "+79011234567"
+    },
+    {
+        "name": "Daniel",
+        "email": "daniel.kim@example.com",
+        "phone": "+79205551234"
+    },
+    {
+        "name": "Eva",
+        "email": "eva_love@gmail.com",
+        "phone": "+79037654321"
+    },
+    {
+        "name": "Frank",
+        "email": "frank_the_tank@rambler.ru",
+        "phone": "+79876543210"
+    },
+    {
+        "name": "Grace",
+        "email": "grace99@yandex.ru",
+        "phone": "+79112223344"
+    },
+    {
+        "name": "Henry",
+        "email": "henry.potter@bk.ru",
+        "phone": "+79034445566"
+    },
+    {
+        "name": "Isabella",
+        "email": "isa_bella@mail.com",
+        "phone": "+79001112233"
+    },
+    {
+        "name": "Jack",
+        "email": "jack.black@gmail.com",
+        "phone": "+79998887766"
+    },
+    {
+        "name": "Karen",
+        "email": "karen_moore@inbox.ru",
+        "phone": "+79090001122"
+    }
+]
