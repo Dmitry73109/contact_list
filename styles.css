@@ -1,0 +1,61 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 30px;
+    color: #333;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.toolbar i {
+    font-size: 30px;
+    color: #007bff;
+    transition: transform 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+}
+
+.toolbar i:hover {
+    color: #0056b3;
+    transform: scale(1.2);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contactTable {
+    width: auto;
+    table-layout: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+#contactTable th,
+#contactTable td {
+    padding: 12px 20px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.edit-btn {
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.edit-btn:hover {
+    color: #0056b3;
+}
+
+.modal-content {
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
