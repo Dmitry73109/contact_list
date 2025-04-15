@@ -48,5 +48,55 @@
         "name": "Karen",
         "email": "karen_moore@inbox.ru",
         "phone": "+79090001122"
+    },
+    {
+        "name": "Liam",
+        "email": "liam.turner@gmail.com",
+        "phone": "+79010101010"
+    },
+    {
+        "name": "Mia",
+        "email": "mia_star@mail.ru",
+        "phone": "+79021234567"
+    },
+    {
+        "name": "Noah",
+        "email": "noah.green@outlook.com",
+        "phone": "+79130001122"
+    },
+    {
+        "name": "Olivia",
+        "email": "olivia.rose@yandex.ru",
+        "phone": "+79075556644"
+    },
+    {
+        "name": "Paul",
+        "email": "paul.bright@bk.ru",
+        "phone": "+79889990000"
+    },
+    {
+        "name": "Quinn",
+        "email": "quinn.zone@gmail.com",
+        "phone": "+79000012345"
+    },
+    {
+        "name": "Ruby",
+        "email": "ruby_heart@mail.com",
+        "phone": "+79081112233"
+    },
+    {
+        "name": "Samuel",
+        "email": "samuel.jackson@rambler.ru",
+        "phone": "+79006667788"
+    },
+    {
+        "name": "Tina",
+        "email": "tina_sunshine@yandex.ru",
+        "phone": "+79112220033"
+    },
+    {
+        "name": "Victor",
+        "email": "victor.kovalski@inbox.ru",
+        "phone": "+79034345678"
     }
 ]

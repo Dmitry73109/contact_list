@@ -65,16 +65,51 @@ body {
 
 .contact-actions {
     display: flex;
-    gap: 8px;
+    align-items: center;
+    position: relative;
     flex-shrink: 0;
 }
 
-.contact-actions i {
-    font-size: 18px;
+.contact-actions .ri-more-2-fill {
+    font-size: 20px;
     cursor: pointer;
     color: #666;
 }
 
-.contact-actions i:hover {
+.contact-actions .ri-more-2-fill:hover {
     color: #000;
+}
+
+.contact-actions .dropdown-menu {
+    font-size: 14px;
+    min-width: 100px;
+}
+
+.contact-card .dropdown {
+    display: none;
+}
+
+.contact-card:hover .dropdown {
+    display: block;
+}
+
+#addContactBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 28px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#addContactBtn:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
